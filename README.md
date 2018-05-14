@@ -1,4 +1,4 @@
-![zenbot logo](https://rawgit.com/deviavir/zenbot/master/assets/logo.png)
+![telegram crypto bot](http://i66.tinypic.com/ruwj6f.png)
 
 > “To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.”
 > – Zen Proverb
