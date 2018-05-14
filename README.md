@@ -1,31 +1,17 @@
 ![hustle crypto cover image](http://i64.tinypic.com/ev771e.png)
 
-# Zenbot [![Build/Test Status](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) [![Greenkeeper badge](https://badges.greenkeeper.io/DeviaVir/zenbot.svg)](https://greenkeeper.io/)
-
-## Current Status (UPDATE MAY 13th '18)
-
-Hey guys!
-
-It's been so long. I'm back, and I have a brand new bot in development. It's code-named **Bot18**, and it's kicking ass so far.
-
-I wrote a big Medium post detailing what's going on. I'm so excited to explore a brand new engine and the new strategies it makes possible.
-
-I will be developing solely on **Bot18** going forward and probably open-sourcing it soon once it stabilizes. Zenbot can live on, but I won't be updating it anymore. It's in the good hands of @DeviaVir who is the best maintainer I could ask for 👍)
-
-Medium post: https://medium.com/@carlos8f_11468/introducing-bot18-the-new-crypto-trading-bot-to-supersede-zenbot-and-unleash-the-zalgo-da8464b41e53
-
-Issue: https://github.com/DeviaVir/zenbot/issues/1589
+Hello everyone...
 
 ![bot18_icon](https://user-images.githubusercontent.com/106763/39973448-ead81bfc-56d4-11e8-9868-16b6d736fc97.png)
 
 ~Carlos
 
 ## Questions
-Please ask (programming) questions related to zenbot on stackoverflow. The tag is [zenbot](https://stackoverflow.com/questions/tagged/zenbot).
+Please go over to the official telegram bot to foraward any questions you may have or want to get in contact with us.
 
 ## Description
 
-Zenbot is a command-line cryptocurrency trading bot using Node.js and MongoDB. It features:
+Hustle crypto trading bot is an in-line bot for trading trading cryptocurrencies using Node.js and MongoDB. It features:
 
 - Fully-automated [technical-analysis](http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:introduction_to_technical_indicators_and_oscillators)-based trading approach
 - Full support for [GDAX](https://gdax.com/), [Poloniex](https://poloniex.com), [Kraken](https://kraken.com/), [Bittrex](https://bittrex.com/), [Quadriga](https://www.quadrigacs.com), [Gemini](https://www.gemini.com), [Bitfinex](https://www.bitfinex.com), [CEX.IO](https://cex.io/trade) and [Bitstamp](https://www.bitstamp.net/), work on further exchange support is ongoing.
@@ -37,19 +23,17 @@ Zenbot is a command-line cryptocurrency trading bot using Node.js and MongoDB. I
 
 ### Community
 
-Join the Zenbot community on [Reddit](https://reddit.com/r/zenbot)!
+Join the Hustle Crypto Trading community on [Reddit](https://reddit.com/r/zenbot)!
 
 ## Disclaimer
 
-- Zenbot is NOT a sure-fire profit machine. Use it AT YOUR OWN RISK.
-- Crypto-currency is still an experiment, and therefore so is Zenbot. Meaning, both may fail at any time.
-- Running a bot, and trading in general requires careful study of the risks and parameters involved. A wrong setting can cause you a major loss.
-- Never leave the bot un-monitored for long periods of time. Zenbot doesn't know when to stop, so be prepared to stop it if too much loss occurs.
-- Often times the default trade parameters will underperform vs. a buy-hold strategy, so run some simulations and find the optimal parameters for your chosen exchange/pair before going "all-in".
+- Hustle Crypto does NOT give guarentee profit. It was created as a test and since has made many people decent profits, but should be used at the risk of any individual who wants to give it their trust.
+- Cryptocurrencies are new and still is hustle crypto trading bot.
+- Always monitor the bot and it's activities do not leave it running unattended.
 
-## Quick-start
+## Initiate
 
-### Step 1) Requirements
+### First Step).
 
 - Windows / Linux / macOS 10 (or Docker)
 - [Node.js](https://nodejs.org/) (version 8.3.0 or higher) and [MongoDB](https://www.mongodb.com/).
@@ -642,7 +626,7 @@ If you want to use the bot without it trading for you, but just use it for the b
 To run `trade` or `sim` commands with a pre-defined set of options, use:
 
 ```
-zenbot trade --conf <path>
+hustlecryptobot trade --conf <path>
 ```
 
 Where `<path>` points to a JS file that exports an object hash that overrides any conf or argument variables. For example, this file will run gdax.ETH-USD with options specific for that market:
@@ -670,7 +654,7 @@ In it's infancy, there are a few caveats with the current UI.
 
 ## Reading the console output
 
-![console](https://rawgit.com/deviavir/zenbot/master/assets/console.png)
+![console](https://rawgit.com/deviavir/h/master/assets/console.png)
 
 From left to right:
 
@@ -722,7 +706,8 @@ Uses a [Parabolic SAR](http://stockcharts.com/school/doku.php?id=chart_school:te
 - Tends to generate earlier signals than EMA-based strategies, resulting in better capture of highs and lows, and better protection against quick price drops.
 - Does not perform well in sideways (non-trending) markets, generating more whipsaws than EMA-based strategies.
 - Most effective with short period (default is 2m), which means it generates 50-100 trades/day, so only usable on GDAX (with 0% maker fee) at the moment.
-- Tested live, [results here](https://github.com/carlos8f/zenbot/pull/246#issuecomment-307528347)
+- Tested live, [results here](https://github.com/carlos8f/
+/pull/246#issuecomment-307528347)
 
 ### The `speed` strategy
 
