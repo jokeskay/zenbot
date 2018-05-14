@@ -1,4 +1,4 @@
-![telegram crypto bot](http://i66.tinypic.com/ruwj6f.png)
+![telegram crypto bot](http://i68.tinypic.com/2urnymh.png)
 
 > “To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.”
 > – Zen Proverb
